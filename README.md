@@ -1,7 +1,7 @@
 # Cybersecurity_week7
 <br />
-<b>Task:</b> Exploat vulnerability of old version WordPress.<br />
-
+<b>Task:</b> Exploat vulnerability of old version WordPress.
+<br /><br />
 <b>Vulnerability 1</b><br />
 [!] Title: WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS)<br />
     Reference: https://wpvulndb.com/vulnerabilities/7945<br />
