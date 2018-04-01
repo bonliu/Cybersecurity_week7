@@ -7,7 +7,7 @@
 > Reference: https://wpvulndb.com/vulnerabilities/7979 <br />
 > Reference: https://codex.wordpress.org/Version_4.2.2 <br />
 > Fixed in: 4.2.2 <br />
-  Steps:<br />
+  <br />Steps:<br />
     - login to http://wpdistillery.vm/ as admin with credential provided in config.yml<br />
     - Install and activate theme TwentyFifteen<br />
     - Install and activate Genericon'd Plugin<br />
@@ -26,7 +26,7 @@
 > Reference: http://packetstormsecurity.com/files/131644/ <br />
 > Reference: https://www.exploit-db.com/exploits/36844/ <br />
 > Fixed in: 4.2.1 <br />
-  Steps:<br />
+  <br />Steps:<br />
     - Go to http://wpdistillery.vm/ as admin <br />
     - Go to one of the post and put crafted malicious code in the comment <br />
     - post comment <br />
