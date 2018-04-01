@@ -1,8 +1,8 @@
 # Cybersecurity_week7
 <br />
-**Task:** Exploat vulnerability of old version WordPress.<br />
+<b>Task:</b> Exploat vulnerability of old version WordPress.<br />
 
-Vulnerability 1.<br />
+<b>Vulnerability 1</b><br />
 [!] Title: WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS)<br />
     Reference: https://wpvulndb.com/vulnerabilities/7945<br />
     Reference: http://klikki.fi/adv/wordpress2.html<br />
@@ -17,5 +17,6 @@ Vulnerability 1.<br />
   >  - Go to content/themes/twentyfifteen/genericons/example.html<br />
   >  - modify url to <br />
   >    http://wpdistillery.vm/wp-content/themes/twentyfifteen/genericons/example.html#1<img/ src=1 onerror=alert("HACKED")>sdf<br />
-  > GIF walkthrough:<br />
- >![genericonxss](https://user-images.githubusercontent.com/31838335/38178052-70db0200-35d8-11e8-9df4-840ce02b2451.gif)
+
+<b>GIF walkthrough:</b><br />
+![genericonxss](https://user-images.githubusercontent.com/31838335/38178052-70db0200-35d8-11e8-9df4-840ce02b2451.gif)
