@@ -3,8 +3,10 @@
 <b>Task:</b> Exploat vulnerability of old version WordPress.
 <br /><br />
 <b>Vulnerability 1</b><br />
-![genericonxss](https://user-images.githubusercontent.com/31838335/38178297-a4c3e9ce-35dd-11e8-9155-3505d0a9950b.PNG)
-<br />
+> Title: WordPress 4.1-4.2.1 - Unauthenticated Genericons Cross-Site Scripting (XSS) <br />
+> Reference: https://wpvulndb.com/vulnerabilities/7979 <br />
+> Reference: https://codex.wordpress.org/Version_4.2.2 <br />
+> Fixed in: 4.2.2 <br />
   Steps:<br />
     - login to http://wpdistillery.vm/ as admin with credential provided in config.yml<br />
     - Install and activate theme TwentyFifteen<br />
@@ -18,8 +20,12 @@
 
 <br />
 <b>Vulnerability 2</b><br />
-![xss1](https://user-images.githubusercontent.com/31838335/38178301-b8ecc164-35dd-11e8-9162-f4b539fa6093.PNG)
-<br />
+> Title: WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS) <br />
+> Reference: https://wpvulndb.com/vulnerabilities/7945 <br />
+> Reference: http://klikki.fi/adv/wordpress2.html <br />
+> Reference: http://packetstormsecurity.com/files/131644/ <br />
+> Reference: https://www.exploit-db.com/exploits/36844/ <br />
+> Fixed in: 4.2.1 <br />
   Steps:<br />
     - Go to http://wpdistillery.vm/ as admin <br />
     - Go to one of the post and put crafted malicious code in the comment <br />
