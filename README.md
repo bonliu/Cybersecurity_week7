@@ -33,6 +33,17 @@
 
 <b>GIF walkthrough:</b><br />
 ![xss1](https://user-images.githubusercontent.com/31838335/38178228-33f0004e-35dc-11e8-9764-6d91a88c7902.gif)
+<br />
 
+<br />
+<b>Vulnerability 3</b><br />
+> Fail to sanitize post title <br />
+  <br />Steps:<br />
+    - Login to http://wpdistillery.vm/ as admin <br />
+    - Add a new post <br />
+    - Use a crafted malicious code as the title of the post <br />
+
+<b>GIF walkthrough:</b><br />
+![xss2](https://user-images.githubusercontent.com/31838335/38178916-32d0238e-35ea-11e8-8d84-2c76c9483aa6.gif)
 
 
